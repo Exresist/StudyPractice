@@ -6,7 +6,10 @@ namespace Ex5
     {
         static void Main(string[] args)
         {
-            
+            /*
+             * Дана действительная квадратная матрица порядка л.
+             * Найти наибольшее из значений элементов, расположенных в заштрихованной части матрицы
+             */
             Console.Write("Введите размерность двумерного массива:");
             int row = InputNumber(Console.ReadLine());
             int[,] array = new int[row,row];
@@ -94,7 +97,7 @@ namespace Ex5
             do
             {
                 int num;
-                if (ok = int.TryParse(value, out num) && num > 0)
+                if (ok = int.TryParse(value, out num) && num > 2)
                 {
                     return num;
                 }

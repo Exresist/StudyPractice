@@ -127,6 +127,7 @@
       <e p="Ex8" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Ex8.csproj" t="IncludeRecursive" />
+        <e p="Graph.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -138,6 +139,7 @@
       </e>
       <e p="Ex9" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="CircularList.cs" t="Include" />
         <e p="Ex9.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -146,6 +148,7 @@
             </e>
           </e>
         </e>
+        <e p="Point.cs" t="Include" />
         <e p="Program.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
